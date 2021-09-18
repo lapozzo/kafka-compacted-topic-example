@@ -25,10 +25,10 @@ docker compose up -d
 
 ## Run Example
 
-1. Create Topic
+### Create Topic
 
-1.1 Open Confluent Control Center, http://localhost:9021/
-1.2 Create Topic account-balance-topic with the custom properties below:
+1. Open Confluent Control Center http://localhost:9021/
+2. Create topic account-balance-topic with the custom properties below:
 
 ```properties
 cleanup.policy=compact
@@ -37,7 +37,7 @@ segment.ms=100
 delete.retention.ms=100
 ```
 
-2. Start producer (scheduler)
+### Start producer (scheduler)
 
 ```sh
 cd account-balance-producer
@@ -45,9 +45,9 @@ mvn spring-boot:run
 
 ```
 
-3. Produce some messages and stop the consumer
+### Leave producing some messages and stop the producer
 
-4. Start consumer.
+### Start the consumer
 
 ```sh
 cd account-balance-consumer
