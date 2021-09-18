@@ -45,7 +45,7 @@ mvn spring-boot:run
 
 ```
 
-### Leave producing some messages and stop the producer
+Leave producing some messages and stop the producer
 
 ### Start the consumer
 
