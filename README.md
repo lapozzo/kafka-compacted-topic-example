@@ -23,7 +23,7 @@ cd confluent-kafka
 docker compose up -d
 ```
 
-## Run Example
+## Running the Example
 
 ### Create the topic
 
