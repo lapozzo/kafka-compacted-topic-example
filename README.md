@@ -25,7 +25,7 @@ docker compose up -d
 
 ## Run Example
 
-### Create Topic
+### Create the topic
 
 1. Open Confluent Control Center http://localhost:9021/
 2. Create topic account-balance-topic with the custom properties below:
@@ -37,7 +37,7 @@ segment.ms=100
 delete.retention.ms=100
 ```
 
-### Start producer (scheduler)
+### Start the producer (scheduler)
 
 ```sh
 cd account-balance-producer
