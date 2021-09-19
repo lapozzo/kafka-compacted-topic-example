@@ -2,7 +2,7 @@
 
 Simple Springboot Kafka consumer for test the Kafka Compacted Log feature
 
-Flow:
+## Flow
 [Springboot Producer - Scheduler] -> [Kafka] <- [Springboot Consumer]
 
 ## What is Kafka Compacted Log
